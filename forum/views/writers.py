@@ -297,4 +297,29 @@ def manage_pending_data(request, action, forward=None):
         request.session['redirect_POST_data'] = pending_data['POST']
         return HttpResponseRedirect(pending_data['submission_url'])
 
+@csrf_exempt
+def send_selection(request):
+    import sys
+    from django.db import connection, transaction
+    print >>sys.stderr, 'Goodbye, cruel world!'
+    # print >>sys.stderr, request
+    # if request.POST:
+        # ask_action = AskAction(user='will', ip=request.META['REMOTE_ADDR']).save(data=request.POST)
+        # question = Question(author='will2', **processed_data)
+        # question.save()
+
+    qtitle = request.POST['selection']
+    tags = 'tagthis' # request.POST['TAGS']
+    # Submit as anonymous unless set
+    author = '4' # request.POST['AUTHORID']
+    qbody = 'Claim found on page: ' + request.POST['page']
+    q = Question(title = qtitle, tagnames = tags, author_id = author, body = qbody)
+    q.save()
+
+    # questions = Question.objects.filter(title__contains=qtitle)
+    # response = question_list(questions)
+
+    # return HttpResponse(simplejson.dumps(response), mimetype='application/json')
+    return HttpResponse('')
+
 

@@ -55,6 +55,7 @@ core_urls = (
     
     
     url(r'^%s(?P<id>\d+)/%s$' % (_('questions/'), _('edit/')), app.writers.edit_question, name='edit_question'),
+    url(r'^%s$' % _('send_selection/'), app.writers.send_selection, name='send_selection'),
     url(r'^%s(?P<id>\d+)/%s$' % (_('questions/'), _('close/')), app.commands.close, kwargs=dict(close=True), name='close'),
     url(r'^%s(?P<id>\d+)/%s$' % (_('questions/'), _('reopen/')), app.commands.close, kwargs=dict(close=False), name='reopen'),
     url(r'^%s(?P<id>\d+)/%s$' % (_('questions/'), _('answer/')), app.writers.answer, name='answer'),

@@ -1,3 +1,11 @@
+Fork of OSQA for Full Fact
+==========================
+
+Adds an API to OSQA for adding questions
+
+General OSQA info
+=================
+
 The OSQA project - open source Q&A system
 
 Project Q&A site - http://meta.osqa.net
