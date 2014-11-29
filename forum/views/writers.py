@@ -301,7 +301,7 @@ def manage_pending_data(request, action, forward=None):
 def send_selection(request):
     import sys
     from django.db import connection, transaction
-    print >>sys.stderr, 'Goodbye, cruel world!'
+    # print >>sys.stderr, 'Goodbye, cruel world!'
     # print >>sys.stderr, request
     # if request.POST:
         # ask_action = AskAction(user='will', ip=request.META['REMOTE_ADDR']).save(data=request.POST)
@@ -309,10 +309,16 @@ def send_selection(request):
         # question.save()
 
     qtitle = request.POST['selection']
-    tags = 'tagthis' # request.POST['TAGS']
+    tags = request.POST['tags']
     # Submit as anonymous unless set
-    author = '4' # request.POST['AUTHORID']
-    qbody = 'Claim found on page: ' + request.POST['page']
+    submitted_by = request.POST['submitted_by'] if request.POST['submitted_by'] else 'Anonymous'
+    author = User.objects.get(username=submitted_by).pk
+    if author is None:
+        pass
+        # create anon user and add as this
+        author = User.objects.get(username=Anonymous).pk
+    qbody = request.POST['extra_info']
+    qbody += '\n\nClaim found on page: ' + request.POST['page']
     q = Question(title = qtitle, tagnames = tags, author_id = author, body = qbody)
     q.save()
 
