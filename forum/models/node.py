@@ -33,6 +33,7 @@ class NodeContent(models.Model):
 
     @classmethod
     def _as_markdown(cls, content, *extensions):
+        print('HERERERER')
         try:
             return mark_safe(sanitize_html(markdown.markdown(content, extensions=extensions)))
         except Exception, e:

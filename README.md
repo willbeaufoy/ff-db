@@ -1,15 +1,8 @@
-Fork of OSQA for Full Fact
+Full Fact claims database
 ==========================
 
-Adds an API to OSQA for adding questions
+- Fork of OSQA
+- Adds an API for adding new claims and checking existing ones remotely.
 
-General OSQA info
-=================
 
-The OSQA project - open source Q&A system
-
-Project Q&A site - http://meta.osqa.net
-Homepage - http://www.osqa.net
-Bug tracking - http://jira.osqa.net
-Wiki - http://wiki.osqa.net
 

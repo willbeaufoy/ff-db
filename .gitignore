@@ -7,3 +7,4 @@ tmp/*
 forum/migrations
 osqa.wsgi
 settings_local.py
+settings.py

@@ -1,0 +1,887 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"con",
+				"console"
+			],
+			[
+				"highlight",
+				"highlight_listen_called"
+			],
+			[
+				"back",
+				"backgroundColor"
+			],
+			[
+				"cre",
+				"createTextNode"
+			],
+			[
+				"incidentU",
+				"incidentUserName"
+			],
+			[
+				"incid",
+				"incidentUserID"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"user",
+				"userIdControl"
+			],
+			[
+				"content",
+				"content"
+			],
+			[
+				"vd",
+				"vd_model_code"
+			],
+			[
+				"name",
+				"name"
+			],
+			[
+				"catego",
+				"category_ids_to_show"
+			],
+			[
+				"prev",
+				"prev_category_ids"
+			],
+			[
+				"location",
+				"location"
+			],
+			[
+				"expired",
+				"expired_projects"
+			],
+			[
+				"send",
+				"senderEmail"
+			],
+			[
+				"while",
+				"while	while …"
+			],
+			[
+				"relevant",
+				"relevantDocumentControl"
+			],
+			[
+				"add",
+				"additional_user_ids"
+			],
+			[
+				"expire",
+				"expiredProject"
+			],
+			[
+				"addition",
+				"additional_user_ids"
+			],
+			[
+				"postcode",
+				"postcode"
+			],
+			[
+				"date",
+				"date"
+			],
+			[
+				"f",
+				"f"
+			],
+			[
+				"Addition",
+				"AdditionalTaxaGridController"
+			],
+			[
+				"toggle",
+				"toggleSidebarDiv"
+			],
+			[
+				"staffNew",
+				"staffNewContractsRegions"
+			],
+			[
+				"editMyStaffContra",
+				"editMyStaffContractsIsSelected"
+			],
+			[
+				"ed",
+				"editMyStaffContracts"
+			],
+			[
+				"EditStaffContractD",
+				"EditStaffContractDatesForCountry"
+			],
+			[
+				"error",
+				"error_log"
+			],
+			[
+				"time",
+				"timespanSeach"
+			],
+			[
+				"searchStaff",
+				"searchStaffContractActiveFrom"
+			],
+			[
+				"searchStaffContr",
+				"searchStaffContractActiveOn"
+			],
+			[
+				"searchStaffContract",
+				"searchStaffContractStartDate"
+			],
+			[
+				"search",
+				"searchStaffStartDate"
+			],
+			[
+				"Z",
+				"PartOfZSL"
+			]
+		]
+	},
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 380.0,
+		"selected_items":
+		[
+			[
+				"xdeb",
+				"Xdebug: Restart Session"
+			],
+			[
+				"xdebug",
+				"Xdebug: Restart Session"
+			],
+			[
+				"xdebu",
+				"Xdebug: Stop Debugging"
+			],
+			[
+				"table editor: en",
+				"Table Editor: Enable for current syntax"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: Enable Package"
+			],
+			[
+				"table editor",
+				"Table Editor: Show demo film in new scratch view"
+			],
+			[
+				"pack",
+				"Package Control: Enable Package"
+			],
+			[
+				"xde",
+				"Xdebug: Stop Debugging"
+			],
+			[
+				"packag",
+				"Package Control: Disable Package"
+			],
+			[
+				"x",
+				"Xdebug: Restart Session"
+			],
+			[
+				"XDEB",
+				"Xdebug: Start Debugging"
+			],
+			[
+				"xd",
+				"Xdebug: Stop Debugging"
+			],
+			[
+				"sublimer",
+				"Sublimerge: Compare to View..."
+			],
+			[
+				"subli",
+				"Sublimerge: Compare to View..."
+			],
+			[
+				"git diff",
+				"Set Syntax: SublimeGit Diff"
+			],
+			[
+				"deb",
+				"Xdebug: Restart Session"
+			],
+			[
+				"xdebg",
+				"Xdebug: Stop Debugging"
+			],
+			[
+				"sublimerge",
+				"Sublimerge: Custom Comparison..."
+			],
+			[
+				"xdebug: res",
+				"Xdebug: Restart Session"
+			],
+			[
+				"git",
+				"Git: Diff"
+			],
+			[
+				"sublimegit",
+				"Set Syntax: SublimeGit Diff"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"git:diff",
+				"Git: Diff"
+			],
+			[
+				"sublimelint",
+				"SublimeLint: Show All Errors"
+			],
+			[
+				"lint",
+				"SublimeLint: Show All Errors"
+			],
+			[
+				"git:version",
+				"Git: Version"
+			],
+			[
+				"fz",
+				"SublimeZilla: Import FileZilla Server"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: console_log"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"``sublime.log_commands(True)``",
+			"sublime.log_commands(True)",
+			"window.run_command(\"goto_line\", {\"line\": 7})",
+			"view.run_command(\"goto_line\", {\"line\": 7})",
+			"self",
+			"Window",
+			"man mysql",
+			"wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
+			"sublime.packages_path()",
+			"view.encoding()",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/will/Downloads/set_page_color/popup.html",
+		"/home/will/Downloads/set_page_color/manifest.json",
+		"/home/will/fullfact/ffx/data/highlight-claims.js",
+		"/home/will/fullfact/ffx/lib/main.js",
+		"/home/will/fullfact/ffx/package.json",
+		"/home/will/pythoninfo.md",
+		"/home/will/venvs/ffosqa/ffosqa/forum/management/commands/csv_claims_import.py",
+		"/home/will/fullfact/speeches.csv",
+		"/home/will/fullfact/factcheck-master-new.csv",
+		"/home/will/venvs/ffosqa/ffosqa/forum/views/writers.py",
+		"/home/will/venvs/ffosqa/ffosqa/forum/models/base.py",
+		"/home/will/venvs/ffosqa/local/lib/python2.7/site-packages/markdown/__init__.py",
+		"/home/will/venvs/ffosqa/ffosqa/forum/models/node.py",
+		"/home/will/venvs/ffosqa/ffosqa/forum/startup.py",
+		"/home/will/venvs/ffosqa/ffosqa/forum/models/question.py",
+		"/home/will/venvs/ffosqa/ffosqa/forum/views/commands.py",
+		"/home/will/venvs/ffosqa/ffosqa/forum/views/admin.py",
+		"/home/will/venvs/ffosqa/ffosqa/forum_modules/localauth/views.py",
+		"/home/will/venvs/ffosqa/ffosqa/forum/models/user.py",
+		"/home/will/venvs/ffosqa/ffosqa/settings_local.py",
+		"/home/will/fullfact/chrome/contentscript.js",
+		"/home/will/venvs/ffosqa/ffosqa/forum_modules/sximporter/importer.py",
+		"/home/will/venvs/ffosqa/ffosqa/forum/management/commands/delete_questions.py",
+		"/home/will/djangoinfo.md",
+		"/home/will/fullfact/pm.md",
+		"/home/will/venvs/ffosqa/ffosqa/forum/skins/fullfact/templates/questions.html",
+		"/home/will/s/words.md",
+		"/home/will/fullfact/ffx/data/select-listen.js",
+		"/home/will/venvs/ffosqa/ffosqa/locale/en/LC_MESSAGES/django.po",
+		"/home/will/venvs/ffosqa/ffosqa/forum/actions/user.py",
+		"/home/will/venvs/ffosqa/ffosqa/forum/management/commands/maintaindb.py",
+		"/home/will/venvs/ffosqa/ffosqa/forum/admin.py",
+		"/home/will/fullfact/factcheck-importable-5.csv",
+		"/home/will/venvs/ffosqa/ffosqa/forum/management/commands/sample_command.py",
+		"/home/will/venvs/ffosqa/ffosqa/forum/management/commands/create_extended_user.py",
+		"/home/will/venvs/ffosqa/ffosqa/locale/en/LC_MESSAGES/django.mo",
+		"/home/will/edgerc/translate.php",
+		"/home/will/edgerc/translate.py",
+		"/home/will/s/cash.md",
+		"/home/will/comptodo.md",
+		"/home/will/vpn.md",
+		"/home/will/dashboard.md",
+		"/home/will/geo-whois-traceroute/vistraceroute.py",
+		"/home/will/s/genetics.md",
+		"/home/will/s/personalfinance/cash.md",
+		"/home/will/compressinfo.md",
+		"/home/will/pleskinfo.md",
+		"/home/will/utilsinfo.md",
+		"/tmp/sman",
+		"/home/will/intatexinfo.md",
+		"/home/will/Sites/eas/StockUpdating.php",
+		"/home/will/eascm",
+		"/home/will/vdcm",
+		"/home/will/Sites/bas/admin/controller/tool/eas_update.php",
+		"/home/will/bascm",
+		"/tmp/eas_o.sql",
+		"/home/will/intatexinfo",
+		"/tmp/queries.sql",
+		"/home/will/sqliteinfo.md",
+		"/home/will/sqlinfo.md",
+		"/home/will/Sites/ZPD/public_html/.htaccess",
+		"/home/will/Sites/ZPD/public_html/common/database_functions.php",
+		"/home/will/Sites/ZPD/public_html/common/s/words.md",
+		"/home/will/nodeinfo.md",
+		"/home/will/fullfact/ffmongo/node_modules/mongodb/lib/mongodb/db.js",
+		"/home/will/js/mongotest.js",
+		"/home/will/fullfact/ffmongo/package.json",
+		"/home/will/fullfact/ffmongo/index.js",
+		"/home/will/fullfact/ffmongo/collectionDriver.js",
+		"/home/will/fullfact/ffmongo/dataentry.sh",
+		"/home/will/fullfact/ffmongo/factcheck.json",
+		"/home/will/mongodbinfo.md",
+		"/home/will/s/ethnat/in-defense-of-nationalism.md",
+		"/node_modules/mongodb/lib/mongodb/db.js",
+		"/home/will/venvs/ffosqa/ffosqa/forum/urls.py",
+		"/home/will/venvs/ffosqa/ffosqa/forum/views/readers.py",
+		"/home/will/fullfact/ffmongo/public/hello.html",
+		"/home/will/fullfact/ffmongo/views/data.jade",
+		"/home/will/fullfact/ffmongo/views/404.jade",
+		"/home/will/aptinfo.md",
+		"/home/will/s/history/india.md",
+		"/home/will/Downloads/node-v0.10.33-linux-x64/README.md",
+		"/home/will/jsinfo.md",
+		"/home/will/pbplugin/ffx/data/contentscript.js",
+		"/home/will/pbplugin/pbpm.md",
+		"/home/will/pbcm",
+		"/home/will/pbplugin/ffx/lib/main.js",
+		"/home/will/pbplugin/ffx/package.json",
+		"/home/will/Sites/test/pbplugin.html",
+		"/home/will/pbplugincm*",
+		"/home/will/venvs/ffosqa/ffosqa/forum/models/Sites/test/pbplugin.html",
+		"/home/will/venvs/ffosqa/ffosqa/urls.py",
+		"/home/will/bashinfo.md",
+		"/home/will/pbplugin/searchpb.js",
+		"/home/will/fullfact/ffx/pm.md",
+		"/home/will/coreutilsinfo.md",
+		"/home/will/xclipinfo.md",
+		"/home/will/fullfact/ffx/data/contentscript.js",
+		"/home/will/py/djangoinfo.md",
+		"/home/will/Sites/ZPD/public_html/common/download_file.php",
+		"/home/will/zpdinfo.md",
+		"/home/will/zpdcm",
+		"/home/will/fullfact/factcheck-test.csv",
+		"/home/will/fullfact/ffmongo/ffmongocm.md",
+		"/home/will/fullfact/factcheck-master-new-2.csv",
+		"/home/will/fullfact/factcheck.csv",
+		"/home/will/fullfact/factcheck-master.csv",
+		"/home/will/vistraceroutecm.md",
+		"/home/will/ubuntuinfo.md",
+		"/home/will/vistraceroutcm*",
+		"/home/will/geo-whois-traceroute/vistraceroutcm*",
+		"/home/will/geo-whois-traceroute/README.md",
+		"/home/will/apacheinfo.md",
+		"/home/will/Sites/vd/admin/controller/tool/eas_update.php",
+		"/home/will/Sites/vd/README.md",
+		"/home/will/nixutilsinfo.md",
+		"/home/will/intatex/intatexinfo.md",
+		"/home/will/apachein*",
+		"/home/will/s/ethnat/ethnat.md",
+		"/home/will/Sites/ZPD/public_html/entry/incident_form.php",
+		"/home/will/edgerc/edgercinfo.md",
+		"/home/will/Sites/ZPD/public_html/entry/incidents.php",
+		"/home/will/zpdcm.md",
+		"/home/will/libreofficeinfo.md",
+		"/home/will/openofficein*",
+		"/home/will/edgerc/edgerccm.md",
+		"/home/will/geo-whois-traceroute/vistracereoute.py",
+		"/etc/postgresql/9.3/main/pg_hba.conf"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"HERE",
+			"slice",
+			"string",
+			"slice",
+			"as_mark",
+			"qbody",
+			"class basemodel",
+			"def save",
+			"save",
+			"body",
+			"nodeman",
+			"delete",
+			"def delete",
+			"def save",
+			"save",
+			"All questions",
+			"questions",
+			"skin",
+			"$row",
+			"^(.*)$",
+			"vpn",
+			"comment",
+			"comments",
+			"var_d",
+			"CategoryCode li",
+			"mysql_query",
+			"query",
+			"not_",
+			"image_n",
+			"log",
+			"insert",
+			"residential and commercial",
+			"seo_k",
+			"',",
+			"non_vd",
+			"str_re",
+			"austria",
+			"item",
+			"purge",
+			"onffus",
+			"onffusre",
+			"highlightmatch",
+			"deleted",
+			"Question.objects",
+			"tabs",
+			"send_",
+			"json",
+			"simplejson",
+			"title",
+			"pbpopup",
+			"pbtitle",
+			"ff_",
+			"serverurl",
+			"json",
+			"string",
+			"find in string",
+			"reg",
+			"import re ",
+			"import re",
+			"send_sel",
+			"sendsel",
+			"extent vocational courses would be able to mitigate the clear impact the economic trouble",
+			"Two-thirds of millionaires have left Britain in order to avoid the 50p t",
+			"res paid it, as a result of which the tax take suffered by £7 bill",
+			"Marraige rates in Spain and Holland decreased after same-sex marraige was introduced",
+			"The new NHS Mandate certainly contains positive signs towards establishing greater parity of ",
+			"mental health pat",
+			"crime is falling",
+			"an independent",
+			"an independent sco",
+			"`",
+			"million violent c",
+			"`",
+			"non_vd",
+			"austrian",
+			"ipinfo",
+			"project or programme ma",
+			"project_or_programme",
+			"enumer",
+			"diction",
+			"geturld",
+			"print",
+			"-t ",
+			"-t",
+			"-T",
+			"data['im",
+			"product_images",
+			"product_image",
+			"product_images",
+			"select a grade",
+			"image",
+			"error_lo",
+			"select a grade",
+			"query",
+			"col",
+			"image",
+			"whois",
+			"pass",
+			"pass#",
+			"optional t",
+			"submit as",
+			"sbmit as",
+			"Anony",
+			"\\bpopup",
+			"\\Wpopup",
+			"\\wpopup",
+			"ffpopup",
+			"ffpopop",
+			"ffsend",
+			"ffse",
+			"\"",
+			"'",
+			"document.body",
+			"sendse",
+			"sendse#",
+			"submit",
+			"tagnames",
+			"child",
+			"class AskA",
+			"class actionproxy",
+			"actionproxy",
+			"nodeeditac",
+			"askaction",
+			"askacation",
+			"questions",
+			"def save",
+			"class Node(",
+			"class Node"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$threat_mach_form",
+			"$form['$0'] = $row['$0'];",
+			"$0AH",
+			" ',",
+			"claim",
+			"ff_highlight_popup",
+			"ff_highlight_title",
+			"ff_highlight",
+			"ff_send_",
+			"ff_send",
+			"ff_popup",
+			"",
+			"icon-cropped-",
+			"png",
+			"notification",
+			"Notification",
+			"notification",
+			"node",
+			"British",
+			"Ukip",
+			"\"$1\"",
+			"spott.dev",
+			"wp_",
+			" ",
+			"",
+			"wp_",
+			"18",
+			"17",
+			"16",
+			"15",
+			"14",
+			"13",
+			"12",
+			"121",
+			"120",
+			"119",
+			"118",
+			"117",
+			"116",
+			"115",
+			"114",
+			"113",
+			"112",
+			"110",
+			"",
+			"incidentFilter",
+			":<span class='required-marker'> *</span>",
+			"countryControl",
+			"incidentID",
+			"\"value\" => \"\"",
+			"$1 => \"\",",
+			"$1 =>",
+			"^$1 =>$",
+			"",
+			"WAAA",
+			"$incidentIdControl",
+			"",
+			"IncidentFormControl",
+			"incidentTimeControl",
+			"incidentFormControl",
+			"'$0',",
+			"'$0'",
+			"vd",
+			"else null end",
+			"then",
+			"when",
+			"inner join",
+			"sum",
+			"case",
+			"year",
+			"distinct",
+			"pdl-marker-small.png",
+			"betshops-marker-small.png",
+			"desc",
+			"where",
+			"as",
+			"and",
+			"is not null",
+			"select",
+			"concat",
+			"from",
+			"using(",
+			"left join",
+			"milestonesResult",
+			"milestonesQuery",
+			"$allMilestonesResult",
+			"$allMilestonesQuery",
+			"$milestonesAchievedResult",
+			"milestonesAchievedQuery",
+			"expiringMou",
+			"expiringMousQuery",
+			"--",
+			"",
+			"(prodpage|Shop)",
+			"(cat|catid)",
+			"pp_standard_vd",
+			"",
+			"approvalsQuery",
+			"featured_vd_product",
+			"featured_vd_module",
+			"module/featured_vd",
+			"ControllerModuleFeaturedVD",
+			"featured_vd",
+			"ControllerModuleFeaturedVD",
+			"$countGeneralManagerApprovals",
+			"",
+			"idControl",
+			"milestoneIdControl",
+			"searchInitiativeControl",
+			"searchTargetControl",
+			"searchtargetControl",
+			"searchLeadStaffControl",
+			"searchYearControl",
+			"searchMilestonesQuery",
+			"searchLeadStaff",
+			"searchMilestonesQuery",
+			"searchYear",
+			"gridcontroller_table",
+			"FurtherInfoFormControl",
+			"furtherInfoFormDiv",
+			"loadFurtherInfoForm",
+			"furtherInfoFormControl",
+			"",
+			"leadStaffControl",
+			"",
+			"$1$2",
+			"ward",
+			"lsoa_"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 152.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 295.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"23":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"24":
+				{
+					"group": 0,
+					"index": 1
+				},
+				"25":
+				{
+					"group": 0,
+					"index": 2
+				},
+				"26":
+				{
+					"group": 0,
+					"index": 3
+				},
+				"27":
+				{
+					"group": 0,
+					"index": 4
+				},
+				"28":
+				{
+					"group": 0,
+					"index": 5
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			}
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

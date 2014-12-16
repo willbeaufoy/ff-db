@@ -298,8 +298,9 @@ def manage_pending_data(request, action, forward=None):
         return HttpResponseRedirect(pending_data['submission_url'])
 
 @csrf_exempt
-def send_selection(request):
+def handle_selection(request):
     import sys
+    # print(sys.path)
     from django.db import connection, transaction
     # print >>sys.stderr, 'Goodbye, cruel world!'
     # print >>sys.stderr, request
@@ -307,25 +308,40 @@ def send_selection(request):
         # ask_action = AskAction(user='will', ip=request.META['REMOTE_ADDR']).save(data=request.POST)
         # question = Question(author='will2', **processed_data)
         # question.save()
+    if request.GET or 'selection' not in request.POST:
+        return HttpResponse('No selection sent')
 
     qtitle = request.POST['selection']
     tags = request.POST['tags']
     # Submit as anonymous unless set
     submitted_by = request.POST['submitted_by'] if request.POST['submitted_by'] else 'Anonymous'
-    author = User.objects.get(username=submitted_by).pk
-    if author is None:
+    if User.objects.filter(username=submitted_by).exists():
+        author = User.objects.get(username=submitted_by).pk
+    else:
         pass
         # create anon user and add as this
-        author = User.objects.get(username=Anonymous).pk
+        author = User.objects.get(username='Anonymous').pk
     qbody = request.POST['extra_info']
     qbody += '\n\nClaim found on page: ' + request.POST['page']
     q = Question(title = qtitle, tagnames = tags, author_id = author, body = qbody)
     q.save()
+    return HttpResponse('Selection saved')
 
-    # questions = Question.objects.filter(title__contains=qtitle)
-    # response = question_list(questions)
+@csrf_exempt
+def search_facts(request):
+    import json, sys
+    matches = []
+    # print(request)
+    print(request.body)
+    print(request.POST)
+    if request.GET:
+        return HttpResponse('That was GET')
+    content = request.POST['content']
+    for fact in Question.objects.all().exclude(state_string="(deleted)"):
+        if fact.title != '' and fact.title in content:
+            matches.append(fact.title)
 
-    # return HttpResponse(simplejson.dumps(response), mimetype='application/json')
-    return HttpResponse('')
+    print >>sys.stderr, matches
 
+    return HttpResponse(json.dumps(matches), mimetype='application/json')
 
